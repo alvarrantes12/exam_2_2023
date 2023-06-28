@@ -35,7 +35,7 @@ module Api
         render json: @country.errors, status: :unprocessable_entity
       end
     end
-  
+
     def destroy
       @country.destroy
 
